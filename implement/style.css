@@ -1,0 +1,65 @@
+body {
+    font-family: 'font-family: Georgia, serif';
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/03/04/36/couple-3581038_1280.jpg");
+    background-color: #ffebee;
+    color: #f6f1f7;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    margin: 8px;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .highlight {
+    color: #f1edee;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    margin-top: 1.5rem;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #yesButton {
+    background-color: #05f105;
+    color: white;
+  }
+  
+  #yesButton:hover {
+    background-color: #388e3c;
+  }
+  
+  #noButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #noButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  #responseMessage {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #e91e63;
+    font-weight: bold;
+  }
